@@ -1,0 +1,98 @@
+#What .items {
+    display: block;
+    padding: 0 1rem;
+}
+/* align icons to the left */
+#What .items .item {
+    display: flex;
+    text-align: left;
+    padding: 0 1rem 1rem 1rem;
+    
+}
+
+/* position icon */
+#What .items .item i {
+    margin-right: 1.1rem;
+    align-self: center;
+    margin-bottom: 0;
+
+}
+
+/* smartphones */
+
+@media(max-width:500px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    #navbar .logo {
+        margin: 0.5rem 0 0.5rem 0;
+    }
+    #navbar ul {
+        display: flex;
+        padding: 0;
+        margin-top: 0;
+        padding: 0;
+        justify-content: space-between;
+    }
+
+    #navbar ul li {
+        padding: 0 0.8rem;
+        text-align: center;
+    }
+
+    #who {
+        display: block;
+    }
+    #who .who-image {
+        display:none;
+    }
+
+    #who .who-text ul li {
+        padding: 0.5rem;
+    }
+    #clients .items {
+        justify-content: space-around;
+    
+    }
+
+    #clients .items img {
+        width: 80%;
+    }
+    #clients .items div:last-child {
+        display:none;
+    }
+    .container {
+        padding: 0 1rem;
+    }
+
+    #contact {
+        padding: 1rem 0 5rem 0;
+        border: 1px solid black;
+    }
+
+    #contact .contact-form {
+        margin: 0 5%;
+
+    }
+   #showcase .showcase-content {
+       line-height: 1.1;
+       margin-top: -100px;
+   }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px) {...} */
